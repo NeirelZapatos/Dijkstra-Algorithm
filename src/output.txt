@@ -1,0 +1,2 @@
+Vertex: 0 1 2 3 4 
+Distance: 0 8 9 7 5 
