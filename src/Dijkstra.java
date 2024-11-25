@@ -5,9 +5,12 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.util.*;
 
+public class Dijkstra {
+    static class Vertex {
+        public int distance = Integer.MAX_VALUE;
+        public ArrayList<int[]> neighbors = new ArrayList<>();
+    }
 
-
-public class Main {
     public static void main(String[] args) {
         int numVertices, numEdges;
         Vertex[] vertices;
